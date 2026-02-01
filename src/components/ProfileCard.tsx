@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef } from "react";
-import Image from "next/image";
+
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -68,7 +68,7 @@ export default function ProfileCard() {
                     {/* Content Side */}
                     <div className="w-full md:w-2/3 text-center md:text-left">
                         <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-                            Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-nebula-purple to-nebula-blue">Amar AlFarizi</span>
+                            Hi, I&apos;m <span className="text-transparent bg-clip-text bg-gradient-to-r from-nebula-purple to-nebula-blue">Amar AlFarizi</span>
                         </h2>
 
                         <div className="mb-6">
