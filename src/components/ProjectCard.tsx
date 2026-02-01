@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef } from "react";
+import { useRef, ElementType } from "react";
 import Image from "next/image";
 
 interface ProjectCardProps {
@@ -19,10 +19,10 @@ export default function ProjectCard({
     tags,
     index,
     link,
-}: ProjectCardProps & { link?: string }) {
-    const cardRef = useRef<any>(null);
+}: ProjectCardProps) {
+    const cardRef = useRef<HTMLElement>(null);
 
-    const CardTag = link ? "a" : "div";
+    const CardTag = (link ? "a" : "div") as ElementType;
     const linkProps = link ? { href: link, target: "_blank", rel: "noopener noreferrer" } : {};
 
     return (

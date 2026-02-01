@@ -5,7 +5,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import ProjectCard from "./ProjectCard";
-import { link } from "fs";
+
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
