@@ -14,7 +14,7 @@ const projects = [
     {
         title: "Jogja Ilmu Media Website",
         description: "A project built with full elementor pro and wordpress",
-        image: "/projects/project-1.jpg",
+        image: "/projects/project-1.jpeg",
         tags: ["Elementor Pro", "WordPress"],
         link: "https://jogjailmumedia.com/",
     },
