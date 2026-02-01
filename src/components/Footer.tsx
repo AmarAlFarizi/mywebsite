@@ -3,7 +3,6 @@
 import { useRef, useState } from "react";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
-import MagneticButton from "./MagneticButton";
 import { FaArrowUp } from "react-icons/fa";
 
 gsap.registerPlugin(useGSAP);
@@ -59,7 +58,7 @@ export default function Footer() {
                         What&apos;s Next?
                     </p>
                     <a
-                        href="mailto:contact@example.com"
+                        href="mailto:izzyamaralfa@gmail.com"
                         className="text-4xl md:text-6xl lg:text-7xl font-bold text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-nebula-purple hover:to-nebula-blue transition-all duration-500 leading-tight"
                     >
                         Let&apos;s Build<br />Something Great
