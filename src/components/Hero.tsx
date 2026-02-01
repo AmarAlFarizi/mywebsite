@@ -94,7 +94,7 @@ export default function Hero() {
 
                 {/* Bottom Credits */}
                 <div className="absolute bottom-0 left-0 right-0 flex justify-center pb-8 opacity-50 text-[10px] font-mono tracking-widest uppercase">
-                    <p className="text-center">Copyright 2026 Developer Portfolio. All Right Reserved.</p>
+                    <p className="text-center">Copyright 2026 Amaralfarizi Portfolio. All Right Reserved.</p>
                 </div>
             </div>
 
